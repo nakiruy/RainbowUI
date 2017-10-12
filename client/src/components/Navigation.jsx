@@ -12,13 +12,13 @@ class Navigation extends React.Component {
       <div>
           <div className="navigation">
             <nav>
-              <ul>
-                <li>Men</li>
-                <li>Women</li>
-                <li>Kids</li>
-                <li>Shipping</li>
-                <li>Blog</li>
-                <li>Contact</li>
+              <ul className="navBar">
+                <li className="nav" id="men">Men</li>
+                <li className="nav" id="women">Women</li>
+                <li className="nav" id="kids">Kids</li>
+                <li className="nav" id="shipping">Shipping</li>
+                <li className="nav" id="blog">Blog</li>
+                <li className="nav" id="contact">Contact</li>
               </ul>
             </nav>
           </div>
