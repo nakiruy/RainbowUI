@@ -9,8 +9,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <div>
-          <div className="navigation">
+      <div className="navigation">
             <nav>
               <ul className="navBar">
                 <li className="nav" id="men">Men</li>
@@ -21,7 +20,6 @@ class Navigation extends React.Component {
                 <li className="nav" id="contact">Contact</li>
               </ul>
             </nav>
-          </div>
       </div>
     )
   }

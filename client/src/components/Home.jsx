@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Navigation from './Navigation';
+
 
 class Home extends React.Component {
   constructor(props) {
@@ -12,7 +14,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="home">
-
+        
        <img src="../../public/assets/logo.png"
             srcSet="../../public/assets/logo@2x.png 2x, ../../public/assets/logo@3x.png 3x"
             className="logo" />
@@ -43,6 +45,8 @@ class Home extends React.Component {
         <img src="../../public/assets/shapes.png"
              srcset="../../public/assets/shapes@2x.png 2x, ../../public/assets/shapes@3x.png 3x"
              className="shapes" />
+
+        <Navigation />
       </div>
     )
   }

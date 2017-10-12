@@ -24,18 +24,17 @@ class App extends React.Component {
       <div>
           <div className="header">
             <Home />
-            <Navigation />
           </div>
-          {/* <div className="content">
+          <div className="content">
             <Description />
-            <SellingPoints />
+            {/* <SellingPoints />
             <Video />
             <Stats />
             <Feedback />
             <Footer />
             <Subscribe />
-            <SocialMedia />
-          </div> */}
+            <SocialMedia /> */}
+          </div>
       </div>
     )
   }
